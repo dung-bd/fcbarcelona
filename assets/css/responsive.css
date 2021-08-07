@@ -1,0 +1,55 @@
+@media (max-width: 740px){
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        display: none;
+        min-width: 160px;
+        top:100%;
+        left: 0;
+       position: initial;
+       background-color: #333;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+}
